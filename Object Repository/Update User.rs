@@ -1,32 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Get List User</name>
+   <name>Update User</name>
    <tag></tag>
-   <elementGuidId>7b22fb7e-8b61-49ef-b44f-4938a3a4dd4b</elementGuidId>
+   <elementGuidId>a7bd4ccd-5e2d-4ee8-83ce-9662fb0f6587</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;morpheus\&quot;,\n    \&quot;job\&quot;: \&quot;zion resident\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>706840e7-6774-4b7b-90b4-ba86c644eef6</webElementGuid>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x-api-key</name>
       <type>Main</type>
       <value>reqres-free-v1</value>
-      <webElementGuid>82b47cd9-b86a-4d9d-8d3b-4975d726b3c1</webElementGuid>
+      <webElementGuid>c5f57a35-a124-40ba-9a83-3df5693d0c09</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users/3</restUrl>
+   <restRequestMethod>PATCH</restRequestMethod>
+   <restUrl>https://reqres.in/api/users/2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
