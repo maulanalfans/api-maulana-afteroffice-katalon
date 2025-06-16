@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RG 1 - Valid Register</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bcacf8a6-712f-4dab-ba03-232d73b25ce0</testCaseGuid>
+</TestCaseEntity>
