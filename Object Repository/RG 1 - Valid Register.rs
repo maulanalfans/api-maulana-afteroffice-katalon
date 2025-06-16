@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Update User</name>
+   <name>RG 1 - Valid Register</name>
    <tag></tag>
-   <elementGuidId>a7bd4ccd-5e2d-4ee8-83ce-9662fb0f6587</elementGuidId>
+   <elementGuidId>d5fb0100-5972-45a1-82db-9418199718e6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>reqres-free-v1</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;morpheus\&quot;,\n    \&quot;job\&quot;: \&quot;zion resident\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;eve.holt@reqres.in\&quot;,\n  \&quot;password\&quot;: \&quot;pistol\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
@@ -23,7 +32,7 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>706840e7-6774-4b7b-90b4-ba86c644eef6</webElementGuid>
+      <webElementGuid>874d61a0-e44a-4392-9091-f0d73aaa16de</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -31,14 +40,14 @@
       <name>x-api-key</name>
       <type>Main</type>
       <value>reqres-free-v1</value>
-      <webElementGuid>c5f57a35-a124-40ba-9a83-3df5693d0c09</webElementGuid>
+      <webElementGuid>35399e62-a391-470b-bf9c-378dd74dcf6c</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>https://reqres.in/api/users/2</restUrl>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://reqres.in/api/register</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LST 1 - Fetch List Users</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>daa22d70-ccb5-46e1-b8d9-416764bc0674</testCaseGuid>
+</TestCaseEntity>
